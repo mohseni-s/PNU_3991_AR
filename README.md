@@ -6,5 +6,5 @@
 <br/>
 [رزومه](https://mohseni-s.github.io/mohseni-s/)
 <br/>
-[Sop]
+[SOP]
 
