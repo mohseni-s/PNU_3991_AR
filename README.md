@@ -4,7 +4,7 @@
 ---
 [حساب گیت هاب](https://github.com/mohseni-s)
 <br/>
-[رزومه](https://mohseni-s.github.io/mohseni-s/)
+[رزومه](https://mohseni-s.github.io/)
 <br/>
 [SOP]
 
