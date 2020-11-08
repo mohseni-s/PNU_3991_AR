@@ -6,6 +6,8 @@
 <br/>
 [رزومه](https://mohseni-s.github.io/)
 <br/>
+[JavaScript Certificate By Sololearn](https://github.com/mohseni-s)
+<br/>
 [SOP]
 ------------------------------------
 # PNU_3991
