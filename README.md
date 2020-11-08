@@ -6,7 +6,7 @@
 <br/>
 [رزومه](https://mohseni-s.github.io/)
 <br/>
-[JavaScript Certificate By Sololearn](https://github.com/mohseni-s)
+[JavaScript Certificate By Sololearn](https://github.com/mohseni-s/PNU_3991_AR/blob/main/cert-1024-20270937.jpg)
 <br/>
 [SOP]
 ------------------------------------
