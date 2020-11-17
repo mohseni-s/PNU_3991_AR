@@ -10,7 +10,7 @@
 <br/><br/>
 4)[SOP]coming soon...
 <br/><br/>
-5) [پروژه عضویت](https://github.com/mohseni-s/registration_project)
+5) [پروژه زیر سیستم عضویت](https://github.com/mohseni-s/registration_project)
 <br></br>
 ------------------------------------
 # PNU_3991
