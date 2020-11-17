@@ -9,7 +9,9 @@
 [3)JavaScript Certificate By Sololearn](https://github.com/mohseni-s/PNU_3991_AR/blob/main/cert-1024-20270937.jpg)
 <br/><br/>
 4)[SOP]coming soon...
-5)پروژه عضویت-ثبت نام(https://github.com/mohseni-s/register_project)
+<br/><br/>
+5)[پروژه عضویت]	(http://github.com/mohseni-s/registration_customer)
+<br></br>
 ------------------------------------
 # PNU_3991
 ## Winter Semester Courses 1399/2020
