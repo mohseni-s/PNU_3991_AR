@@ -8,7 +8,7 @@
 <br/><br/>
 [3)JavaScript Certificate By Sololearn](https://github.com/mohseni-s/PNU_3991_AR/blob/main/cert-1024-20270937.jpg)
 <br/><br/>
-[4)Jlord-patcwork](https://github.com/mohseni-s/PNU_3991_AR/blob/main/jlord-patchwork.png)
+[4)Jlord-patcwork](https://github.com/mohseni-s/PNU_3991_AR/blob/main/jlord-pachwork.png)
 <br/><br/>
 5)[SOP]coming soon...
 <br/><br/>
