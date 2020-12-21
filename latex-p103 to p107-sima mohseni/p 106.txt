@@ -1,0 +1,117 @@
+\documentclass[8pt,twocolumn]{amsart}
+
+\textwidth=5in
+\textheight=7.5in
+%\usepackage{showkeys}
+\hfuzz=3pt
+\usepackage{amsxtra}
+\usepackage{amsopn}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{color}
+\usepackage{amscd}
+\usepackage{pifont}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{pb-diagram}
+%\usepackage{graphicx}
+\newcommand{\n}{\noindent}
+\newcommand{\lr}{\longrightarrow}
+\newcommand{\dis}{\di^{\circledast}}
+\newcommand{\fo}{\mathcal{F}}
+\newcommand{\frs}[2]{\hbox{$\ds \frac{#1}{#2}$}}
+\newcommand{\op}{\overline{\parzial}}
+\newcommand{\ot}{\otimes}
+%\newcommand{\cmark}{\ding{51}}
+%\newcommand{\xmark}{\ding{55}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{thm}[definition]{Theorem}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{rem}[theorem]{Remark}
+\newtheorem{ex}[theorem]{Example}
+\newtheorem*{mt*}{Main Theorem}
+\sloppy
+\DeclareMathOperator{\di}{d}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIMBOLI MATEMATICI %
+\newcommand\C{{\mathbb C}}
+\newcommand\f{\mathcal{F}}
+\newcommand\g{{\mathfrak{g}}}
+\newcommand\h{{\mathfrak{h}}}
+\newcommand\A{{\mathfrak{a}}}
+\newcommand\B{{\mathfrak{b}}}
+\newcommand\ka{{\mathfrak{k}}}
+\newcommand\z{{\mathfrak{z}}}
+\newcommand\s{{\mathfrak{s}}}
+\renewcommand\k{{\kappa}}
+\renewcommand\l{{\lambda}}
+\newcommand\m{{\mathfrak{m}}}
+\renewcommand\O{{\omega}}
+\renewcommand\t{{\theta}}
+\newcommand\ebar{{\bar{\varepsilon}}}
+\newcommand\R{{\mathbb R}}
+\newcommand\Z{{\mathbb Z}}
+\newcommand\T{{\mathbb T}}
+\newcommand{\de}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand\w{\wedge}
+%\newcommand{\icsmark}{\ding{55}}
+\newcommand{\ov}[1]{\overline{ #1}}
+\newcommand{\Tk}{\mathcal{T}_{\omega}}
+\newcommand{\ovp}{\overline{\partial}}
+\newcommand\ad{{\rm ad}}
+\newcommand\D{\mathcal{D}}
+\newcommand\pa[1]{\partial_{#1}}
+\newcommand\om{\omega}
+\newcommand\W{\mathcal W}
+\newcommand\Li{\mathcal L}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%=====================================================
+\setlength{\textwidth}{15cm} \setlength{\evensidemargin}{1cm}
+\setlength{\oddsidemargin}{1cm}
+%=====================================================
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{placeins}
+\usepackage{float}
+
+\begin{document}
+the version database directory structure. All elements in the database must be read-only-at all times. They only become Read/Write when they are checked out for updating by an authorized user. 
+
+{\bf Delivery.} Release packages for each increment must be delivered to the Program SCM organization. All deliveries must receive SwIPT approval prior to shipping. Software deliveries should be on removable media. Installation and checkout of the delivered products at customer-designated facilities should be performed if applicable.
+
+If problems arise during the installation, checkout, or test, these problems must be documented in a {\em Software Discrepancy Report} and then resolved. SDRs are discussed in Section 6.4. 
+
+{\bf Delivery Preparation.} SCM is responsible for accumulating the SIs for milestone deliveries. This responsibility includes overseeing the scheduling, storage, handling, and delivery of the project media. All SIs to be delivered must be examined by SQA for specification compliance, SOW compliance, open items unresolved, SDR closure, and test verification status. No delivery should leave the facility without proper authorization from the Program Director or designate. CM should retain records of all deliveries.
+ 
+{\bf Software Version Description.} An SVD document must also be prepared or updated for each release to provide a history of version changes, subsystem/element data, references to related documentation, and references to known problems. In preparation for delivery of the system to the customer, the CM organization must create the formal SVD document with detailed information on all software components, including COTS and reuse software, and their associated version numbers, plus special instructions necessary for system installation.
+
+{\bf 6.4 Managing the Software Corrective Action Process}
+
+The {\em Corrective Action Process} (CAP) is often called {\em change management.} Corrective action is triggered when performance deviates significantly from the plan, when defects that must be corrected are identified in the software work products, or when enhancements and improvements are proposed. A definition of \lq\lq significant deviation\rq\rq must be determined by mutual agreement between you and the customer. The opportunity to measure progress and identify issues that need Corrective Action can come from the reviews and evaluations, test results, and other quantitative management data. The CAP is described in the following three Subsections:
+\begin{itemize}
+\item Discrepancy Reports and Change Requests: Reporting problems and changes (6.4.1)
+\item Corrective Action System: Handling problems and issues for software work products (6.4.2)
+\item Configuration Control Boards: Hierarchical responsibilities of the change control boards (6.4.3)
+\end{itemize}
+
+{\bf 6.4.1 Software Discrepancy Reports and Software Change Requests}
+
+To report problems or changes with baselined software products, {\em Software Discrepancy Reports and Software Change} Requests-or similar names-must be used as part of the Corrective Action Process. The SDR may also be called a \lq\lq Software Deficiency Report\rq\rq or a \lq\lq Problem Report.\rq\rq The problem with calling everything a \lq\lq problem\rq\rq is that every issue is not a problem.
+
+{\bf Lessons Learned.} At one time I presented a report to program management that showed there were many Software Problem Reports being processed. I was asked to find out why we had so many problems. My investigation revealed that most of the problems were not really\lq\lq problems.\rq\rq Many were requests for improvement, some were simple mistakes easily corrected (like a typo), and some were queries regarding observed discrepancies that needed to be reviewed to determine if they were potential problems. That was when we got rid of calling everything a \lq\lq problem\rq\rq and instituted the SCR and SDR.
+
+The SCRs/SDRs are inputs to the Corrective Action Process discussed in Subsection 6.4.2. The following describes the basic differences between SCRs and SDRs:
+
+\begin{itemize}
+\item {\em Software Change Request:} An SCR is typically used to enhance or improve the software product or change commitments, plans or a baseline. It is inappropriate to classify recommended improvements or enhancements as a \lq\lq problem.\rq\rq Also, if an anomaly is found early in the process, the change requested will prevent the problem from occurring later in the process when correcting it will be much more costly.
+\item {\em Software Discrepancy Report:} SDRs document unexpected error conditions or anomalies that occur and is deemed as an incorrect action (or reaction) of the software product.
+\end{itemize}
+
+{\bf Lessons Learned.} At Lockheed Martin, when a change was made early in the development process that avoided a future problem, we called it a \lq\lq save,\rq\rq and statistics were kept on the number of saves to show the cost saving advantages of early Peer Reviews. Most of the time, the cost savings of early Peer Reviews were impressive.
+
+
+\end{document}

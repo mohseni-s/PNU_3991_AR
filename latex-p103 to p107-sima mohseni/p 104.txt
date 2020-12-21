@@ -1,0 +1,127 @@
+\documentclass[8pt,twocolumn]{amsart}
+
+\textwidth=5in
+\textheight=7.5in
+%\usepackage{showkeys}
+\hfuzz=3pt
+\usepackage{amsxtra}
+\usepackage{amsopn}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{color}
+\usepackage{amscd}
+\usepackage{pifont}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{pb-diagram}
+%\usepackage{graphicx}
+\newcommand{\n}{\noindent}
+\newcommand{\lr}{\longrightarrow}
+\newcommand{\dis}{\di^{\circledast}}
+\newcommand{\fo}{\mathcal{F}}
+\newcommand{\frs}[2]{\hbox{$\ds \frac{#1}{#2}$}}
+\newcommand{\op}{\overline{\parzial}}
+\newcommand{\ot}{\otimes}
+%\newcommand{\cmark}{\ding{51}}
+%\newcommand{\xmark}{\ding{55}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{thm}[definition]{Theorem}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{rem}[theorem]{Remark}
+\newtheorem{ex}[theorem]{Example}
+\newtheorem*{mt*}{Main Theorem}
+\sloppy
+\DeclareMathOperator{\di}{d}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIMBOLI MATEMATICI %
+\newcommand\C{{\mathbb C}}
+\newcommand\f{\mathcal{F}}
+\newcommand\g{{\mathfrak{g}}}
+\newcommand\h{{\mathfrak{h}}}
+\newcommand\A{{\mathfrak{a}}}
+\newcommand\B{{\mathfrak{b}}}
+\newcommand\ka{{\mathfrak{k}}}
+\newcommand\z{{\mathfrak{z}}}
+\newcommand\s{{\mathfrak{s}}}
+\renewcommand\k{{\kappa}}
+\renewcommand\l{{\lambda}}
+\newcommand\m{{\mathfrak{m}}}
+\renewcommand\O{{\omega}}
+\renewcommand\t{{\theta}}
+\newcommand\ebar{{\bar{\varepsilon}}}
+\newcommand\R{{\mathbb R}}
+\newcommand\Z{{\mathbb Z}}
+\newcommand\T{{\mathbb T}}
+\newcommand{\de}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand\w{\wedge}
+%\newcommand{\icsmark}{\ding{55}}
+\newcommand{\ov}[1]{\overline{ #1}}
+\newcommand{\Tk}{\mathcal{T}_{\omega}}
+\newcommand{\ovp}{\overline{\partial}}
+\newcommand\ad{{\rm ad}}
+\newcommand\D{\mathcal{D}}
+\newcommand\pa[1]{\partial_{#1}}
+\newcommand\om{\omega}
+\newcommand\W{\mathcal W}
+\newcommand\Li{\mathcal L}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%=====================================================
+\setlength{\textwidth}{15cm} \setlength{\evensidemargin}{1cm}
+\setlength{\oddsidemargin}{1cm}
+%=====================================================
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{placeins}
+\usepackage{float}
+
+\begin{document}
+establishing common SCM change procedures. Subsystem SCM procedures may be provided in the Subsystem SDP Annexes. The policies and process for approving and implementing changes to baselined software products must be defined in the SDP or SCMP. If needed, more detailed {\em operational procedures} can augment the direction provided in the SCMP.
+
+{\bf Software Configuration Management Plan.} The SCMP documents the policies and procedures for conducting required Software Configuration Management for all
+SIs. The SCMP establishes the plan for creating and maintaining a uniform system of configuration identification, control, status accounting, and audit for the software work products throughout the software development process. The SCMP can be organized into five sections:
+\begin{itemize}
+\item {\em Section 1 Introduction:} Presents and defines the scope and purpose of the SCMP.
+\item {\em Section 2 Applicable Documents:} Lists the compliance document(s) and other documents that are referenced, or related to, the SCMP.
+\item {\em Section 3 Organization and Resources:} Describes the overall structure of the Software CM Organization, personnel and resources to be employed.
+\item {\em Section 4 Software Configuration Management Activities:} Covers details of the major Software CM functions and activities (a major portion of the SCMP).
+\item {\em Section 5 Glossary:} Lists the abbreviations and acronyms.
+\end{itemize}
+
+{\bf Objectives of the SCMP.} The objective of the SCMP is to define the process to be used by SCM personnel in managing the configuration control of the software work products. Specifically, the SCMP should provide the following guidelines, direction and/or procedures in order to:
+
+\begin{itemize}
+\item Identify the software development items to be baselined.
+\item Provide change control and visibility of the changes made to software work products through the configuration control procedures.
+\item Control incorporation of all approved software changes,
+and related documentation to the Master Software Development Library or the Software Development Libraries, and the subsequent release of the SI to integration and test, and system test.
+\item Provide status accounting of software work product changes submitted to the SDL or MSDL.
+\item Ensure that only approved changes are incorporated into the baselined software work products.
+\item Maintain a configuration audit system to ensure that records, which are provided to the MSDL or SDL, are consistent with documentation and software work product identification.
+\end{itemize}
+
+Three levels of configuration control are depicted in Figure 6.5 and five levels listed in example Table 6.6. Regardless of the number of CM control levels, overall responsibilities at each level should be defined in the SDP or SCMP including roles and procedures. In addition, the approach to CM related tasks should also be addressed (such as support to multiple baselines, a distributed development environment, data integrity and data restoration).
+
+
+{\bf Scope Creep.} There are many problems affecting (maybe infecting) the development of software but what makes it worse is that many Managers have a common misbelieve those are \lq\lq not really problems\rq\rq but simply characteristics of how software is developed. A lot of software projects fail or are canceled due to excessive time and cost overruns resulting from a non-existent, or poorly controlled, change management system.
+
+
+For example, in order to be accommodating and a team player, a Manager may agree to what appears to be a \lq\lq simple\rq\rq change that seems like \lq\lq a good idea,\rq\rq even though the change is not a documented requirement. But, surprise, it turns out to be difficult to implement, and similar changes start to pile
+up, progress starts to slow down, and the entire project is thrown out of control. This is sometimes called scope creep. It is clear that changes are almost always needed, however, changes must be controlled through the change control process to avoid massive disruption and potential project cancelation
+or failure. (How many \lq\lq little\rq\rq projects have you ever started that turned out to be anything but little?)
+
+{\bf 6.3.5 Software Configuration Status Accounting}
+
+SCM must prepare and maintain records of the configuration status for all baselined software products and includes maintenance of the records required to support configuration auditing. Configuration status accounting data includes the current version of each baselined product, a record of changes to the software product since being placed under configuration control, and the recording and reporting of:
+\begin{itemize}
+\item When each baseline was created and when each SI completed the initial build placing the software or database under CM control.
+\item Descriptive information about each SI.
+\item Description and status of each Software Discrepancy Report (SDR). The status items could be: approved, disapproved, awaiting action, incorporated, or closed.
+\item Change status and traceability of changes to controlled software products.
+\item The status of the technical and administrative documentation associated with each product baseline and/or update to a product baseline.
+\item Closure and archive status.
+\end{itemize}
+\end{document}

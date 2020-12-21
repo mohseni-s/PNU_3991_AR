@@ -1,0 +1,113 @@
+\documentclass[8pt,twocolumn]{amsart}
+
+\textwidth=5in
+\textheight=7.5in
+%\usepackage{showkeys}
+\hfuzz=3pt
+\usepackage{amsxtra}
+\usepackage{amsopn}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{color}
+\usepackage{amscd}
+\usepackage{pifont}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{pb-diagram}
+%\usepackage{graphicx}
+\newcommand{\n}{\noindent}
+\newcommand{\lr}{\longrightarrow}
+\newcommand{\dis}{\di^{\circledast}}
+\newcommand{\fo}{\mathcal{F}}
+\newcommand{\frs}[2]{\hbox{$\ds \frac{#1}{#2}$}}
+\newcommand{\op}{\overline{\parzial}}
+\newcommand{\ot}{\otimes}
+%\newcommand{\cmark}{\ding{51}}
+%\newcommand{\xmark}{\ding{55}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{thm}[definition]{Theorem}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{rem}[theorem]{Remark}
+\newtheorem{ex}[theorem]{Example}
+\newtheorem*{mt*}{Main Theorem}
+\sloppy
+\DeclareMathOperator{\di}{d}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIMBOLI MATEMATICI %
+\newcommand\C{{\mathbb C}}
+\newcommand\f{\mathcal{F}}
+\newcommand\g{{\mathfrak{g}}}
+\newcommand\h{{\mathfrak{h}}}
+\newcommand\A{{\mathfrak{a}}}
+\newcommand\B{{\mathfrak{b}}}
+\newcommand\ka{{\mathfrak{k}}}
+\newcommand\z{{\mathfrak{z}}}
+\newcommand\s{{\mathfrak{s}}}
+\renewcommand\k{{\kappa}}
+\renewcommand\l{{\lambda}}
+\newcommand\m{{\mathfrak{m}}}
+\renewcommand\O{{\omega}}
+\renewcommand\t{{\theta}}
+\newcommand\ebar{{\bar{\varepsilon}}}
+\newcommand\R{{\mathbb R}}
+\newcommand\Z{{\mathbb Z}}
+\newcommand\T{{\mathbb T}}
+\newcommand{\de}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand\w{\wedge}
+%\newcommand{\icsmark}{\ding{55}}
+\newcommand{\ov}[1]{\overline{ #1}}
+\newcommand{\Tk}{\mathcal{T}_{\omega}}
+\newcommand{\ovp}{\overline{\partial}}
+\newcommand\ad{{\rm ad}}
+\newcommand\D{\mathcal{D}}
+\newcommand\pa[1]{\partial_{#1}}
+\newcommand\om{\omega}
+\newcommand\W{\mathcal W}
+\newcommand\Li{\mathcal L}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%=====================================================
+\setlength{\textwidth}{15cm} \setlength{\evensidemargin}{1cm}
+\setlength{\oddsidemargin}{1cm}
+%=====================================================
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{placeins}
+\usepackage{float}
+
+\begin{document}
+{\bf 6.3.6 Software Configuration Audits}
+
+SCM must {\em perform periodic configuration audits to verify that changes were made} in accordance with the Corrective Action Process as described in your SDP or SCMP. SQA can witness and support these audits. Configuration Audits should be used to ensure that submitted software is accompanied by appropriate documentation and approvals, is correctly delivered and merged, and is correctly included in the software builds. The audits must ensure that each software entity incorporates only the approved changes scheduled for inclusion at the time of the audit. The degree of formality of the configuration audits may differ at the different levels of configuration control.
+
+The Software Development Libraries (SDL) and the Master Software Development Library should be audited at least quarterly. A sampling of software releases must be checked against the {\em Software Version Description} (SVD) for correctness and completeness. You also must ensure that there is a SVD for each release. 
+
+{\bf Functional and Physical Configuration Audits.}
+
+Software engineers may be requested to support the {\em Functional Configuration Audits (FCA), Physical Configuration Audits} (PCA) and in some cases a System Verification Review (SVR). Both software and system FCAs and PCAs may be conducted independently or concurrently. The SVR is often conducted concurrently with the System FCA. Your contract may require a Software FCA to be conducted as part of the System Qualification Test (SQT) or following the SQT. The purpose of a Software FCA is to demonstrate that each SI was successfully tested and complies with the software and interface requirements of its functional requirements
+and design documentation. To complete the Software FCA, Software and System Engineers must reach a technical understanding of the validity and degree of completeness of the {\em Software Test Reports} (STR) and the applicable software user documentation. If software FCAs are contractually required, they should be conducted on every SI in the system.
+
+The Software FCA, discussed in Subsection 12.6.5, is a prerequisite to the software Physical Configuration Audit discussed in Subsection 12.7.1. The purpose of the Software PCA is to conduct a formal examination of the {\em as-built}, and {\em as-coded} SI, against its design documentation in order to establish the product baseline. The Software PCA includes a review of the {\em Software Product Specification} (SPS), the Interface Design Description (IDD), the {\em Software Version Description} and all the required operational and support documentation.
+
+If there are differences between the physical configuration of the SI and the configuration used for the Software FCA, they must be identified at the Software PCA. Approved and outstanding changes against the SI must also be provided along with approved deviations and waivers to the requirements specifications. FCAs and PCAs may be conducted on a single SI, a related group of SIs, or incrementally such as blocks. Results of the Software PCA can become an entrance criterion for the System Verification Review discussed in Subsection 12.6.6.
+
+{bf 6.3.7 Packaging, Storage, Handling and Delivery}
+
+The SCM procedures for packaging, storage, handling, and delivery of software products must be provided in the SCMP for both the SDLs and the MSDL. Master copies of delivered software products must be maintained in the MSDL for the duration of the contract.
+
+{\bf Packaging.} The package for a software delivery, at a minimum, consists of the {\em Software Version Description} and the electronic media. The SwIPT responsible for the delivery prepares the SVD in collaboration with SCM. The SVD typically requires Engineering Review Board (ERB) and CCB approvals. SCM is responsible for providing the appropriate identification labels. SCM and SQA should perform the package content verification review, using a {\em Verification Checklist}. A hardcopy listing of the files should be attached to a signed hardcopy checklist.
+
+Upon successful completion of the review and approval process, a formal transmittal contracts letter should be generated and submitted. Copies of the completed Verification Checklist and contracts letter must be maintained in the CM Library. 
+
+{\bf Storage.} The storage requirement can be satisfied through the implementation of supporting library systems. There should be at least three basic components of the library system: a Software Library Management System; a Documentation Library; and Data Storage Backup:
+\begin{itemize}
+\item The Software Library Management System allows the software to be maintained in a central location, yet each host or client has access. A CASE tool can track the baseline changes, marking the transition throughout the activities of the Software Life Cycle. SCM must control the software libraries to provide a disciplined structure for progressive development, integration, test, and implementation of software within a controlled, well-defined environment.
+\item The Documentation Library is a repository for the most current approved and controlled documentation. 
+\item The Data Storage Backup component provides daily incremental backups and system backups (performed daily or weekly) to ensure recovery from an uncontrollable situation.
+\end{itemize}
+
+{\bf Handling.} A SCM CASE tool is ideally suited to administratively manage the handling of software through
+\end{document}

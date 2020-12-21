@@ -1,0 +1,115 @@
+\documentclass[8pt,twocolumn]{amsart}
+
+\textwidth=5in
+\textheight=7.5in
+%\usepackage{showkeys}
+\hfuzz=3pt
+\usepackage{amsxtra}
+\usepackage{amsopn}
+\usepackage{amsmath,amsthm,amssymb}
+\usepackage{color}
+\usepackage{amscd}
+\usepackage{pifont}
+\usepackage{amsfonts}
+\usepackage{latexsym}
+\usepackage{verbatim}
+\usepackage{pb-diagram}
+%\usepackage{graphicx}
+\newcommand{\n}{\noindent}
+\newcommand{\lr}{\longrightarrow}
+\newcommand{\dis}{\di^{\circledast}}
+\newcommand{\fo}{\mathcal{F}}
+\newcommand{\frs}[2]{\hbox{$\ds \frac{#1}{#2}$}}
+\newcommand{\op}{\overline{\parzial}}
+\newcommand{\ot}{\otimes}
+%\newcommand{\cmark}{\ding{51}}
+%\newcommand{\xmark}{\ding{55}}
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem*{theorem*}{Theorem}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{thm}[definition]{Theorem}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{rem}[theorem]{Remark}
+\newtheorem{ex}[theorem]{Example}
+\newtheorem*{mt*}{Main Theorem}
+\sloppy
+\DeclareMathOperator{\di}{d}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% SIMBOLI MATEMATICI %
+\newcommand\C{{\mathbb C}}
+\newcommand\f{\mathcal{F}}
+\newcommand\g{{\mathfrak{g}}}
+\newcommand\h{{\mathfrak{h}}}
+\newcommand\A{{\mathfrak{a}}}
+\newcommand\B{{\mathfrak{b}}}
+\newcommand\ka{{\mathfrak{k}}}
+\newcommand\z{{\mathfrak{z}}}
+\newcommand\s{{\mathfrak{s}}}
+\renewcommand\k{{\kappa}}
+\renewcommand\l{{\lambda}}
+\newcommand\m{{\mathfrak{m}}}
+\renewcommand\O{{\omega}}
+\renewcommand\t{{\theta}}
+\newcommand\ebar{{\bar{\varepsilon}}}
+\newcommand\R{{\mathbb R}}
+\newcommand\Z{{\mathbb Z}}
+\newcommand\T{{\mathbb T}}
+\newcommand{\de}[2]{\frac{\partial #1}{\partial #2}}
+\newcommand\w{\wedge}
+%\newcommand{\icsmark}{\ding{55}}
+\newcommand{\ov}[1]{\overline{ #1}}
+\newcommand{\Tk}{\mathcal{T}_{\omega}}
+\newcommand{\ovp}{\overline{\partial}}
+\newcommand\ad{{\rm ad}}
+\newcommand\D{\mathcal{D}}
+\newcommand\pa[1]{\partial_{#1}}
+\newcommand\om{\omega}
+\newcommand\W{\mathcal W}
+\newcommand\Li{\mathcal L}
+\renewcommand{\theequation}{\thesection.\arabic{equation}}
+%=====================================================
+\setlength{\textwidth}{15cm} \setlength{\evensidemargin}{1cm}
+\setlength{\oddsidemargin}{1cm}
+%=====================================================
+\usepackage{multirow}
+\usepackage{adjustbox}
+\usepackage{placeins}
+\usepackage{float}
+
+\begin{document}
+At the subsystem level, SCRs/SDRs are under the control of the Software Lead but may have to be passed to a higher-level board for approval. The Chief Software Engineer should be responsible for SCRs/SDRs at the program level. SCRs/SDRs must be used to report a known or suspected problem or discrepancy or change with software products under any level of configuration control above the Developer of the product. The originator of the SCR/SDR should be responsible for completion of the {\em issue description} but not necessarily the person who fixes the issue.
+
+Candidate items for inclusion into the CAP Tracking System are: project name, issue originator, item number, item name, software element or document affected, origination date, category, severity, issue description, analyst assigned to the problem, date assigned, date completed, analysis time, recommended solution, impacts, problem status, approval of solution, follow-up actions, name of corrector, correction date, version where corrected, correction time and description of the solution implemented.
+
+{\bf 6.4.2 Software Corrective Action Process}
+
+{\em If you expect the unexpected and prepare for it, you can manage it when it happens!}
+
+A software {\em Corrective Action Process} must be implemented for your project in order to handle problems or issues detected in software work products under configuration control, and other problems or issues related to the contract. The CAP must use SCRs/SDRs as inputs to the process and the process should include mechanisms to ensure that:
+
+\begin{itemize}
+\item All detected problems and issues are promptly reported and entered into the CAP Tracking System, organized and checked for duplication.
+\item Corrective Actions are promptly initiated when the problems or issues are identified. 
+\item Status is tracked and resolutions are achieved.
+\item Records of the problems and issues are maintained for the duration of the contract.
+\item Software problems are classified by category and severity.
+\item Analysis is performed to detect trends.
+\item Corrective Actions are evaluated to determine if changes are correctly implemented without introducing additional problems.
+\end{itemize}
+
+Details of the Corrective Action Process can vary from location to location. These details should be documented in each Developer's SDP Annex or in a Corrective Action Plan addendum to the SDP. The SCR/SDR process can also be detailed in the {\em Software Configuration Management Plan} and/or in lower level procedures.
+
+The division of responsibilities for Corrective Action tasks between the Development Team and the customer's Program Office should be clear but is often confusing. A table should be included in the SDP to specifically clarify the division of responsibility. It can also be expanded to identify specific organizations performing each task.
+
+Figure 6.6 is an example overview of a Corrective Action Process for Software Discrepancy Reports. As shown in Figure 6.6, once the SDR has been generated and logged in at the program level, the SDR is assigned to a Responsible Software Engineer for investigation. The investigator must recommend the Corrective Action needed and record the actions taken to either correct the problem or provide a workaround solution. When this is accomplished, the SDR is returned to the responsible Configuration Control Board for disposition.
+
+Once a process problem is defined, it must be assigned a {\em priority and severity level.} Table 6.8 is an example of definitions for software problem severity levels. The status of problems must be reported and tracked. The CSwE, the SEPG, or both should perform trend analysis on process problems and report adverse trends to the appropriate level of management. Process issues are closed out when SQA verifies that the Corrective Action is in place and there exists objective
+\onecolumn
+\begin{figure*}[h!]
+ \centering
+  \includegraphics[width=1\textwidth]{1.eps}
+ \caption{Figure 6.6 Corrective Action Process overview.}
+ \end{figure*}
+\end{document}
