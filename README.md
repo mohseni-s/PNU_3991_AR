@@ -10,8 +10,7 @@
 <br/><br/>
 [4)Jlord-patcwork](https://github.com/mohseni-s/PNU_3991_AR/blob/main/jlord-pachwork.png)
 <br/><br/>
-[5)Latex-p103 to P107](https://github.com/mohseni-s/PNU_3991_AR/blob/main/latex-p103%20to%20p107-sima%20mohseni/p103-p107.tex)
-Latex https://github.com/mohseni-s/PNU_3991_AR/tree/main/latex-p103%20to%20p107-sima%20mohseni
+[5)Latex-p103 to P107](https://github.com/mohseni-s/PNU_3991_AR/tree/main/latex-p103%20to%20p107-sima%20mohseni)
 <br/><br/>
 6)[SOP]coming soon...
 <br/><br/>
