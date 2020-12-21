@@ -12,7 +12,7 @@
 <br/><br/>
 [5)Latex-p103 to P107](https://github.com/mohseni-s/PNU_3991_AR/tree/main/latex-p103%20to%20p107-sima%20mohseni)
 <br/><br/>
-6)[SOP]coming soon...
+6)[SOP](https://github.com/mohseni-s/PNU_3991_AR/blob/main/SOP.docx)
 <br/><br/>
 7)[ارائه فصل 28-کتاب پرسمن-مدیریت ریسک](https://github.com/mohseni-s/Pressman-28-RiskManagement.git)
 <br/><br/>
