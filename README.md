@@ -17,6 +17,8 @@
 [7)ارائه فصل 28-کتاب پرسمن-مدیریت ریسک](https://github.com/mohseni-s/Pressman-28-RiskManagement.git)
 <br/><br/>
 [8) پروژه زیر سیستم عضویت](https://github.com/mohseni-s/registration_project)
+<br/><br/>
+[8) ارزیابی](https://github.com/mohseni-s/registration_project)
 <br></br>
 
 ------------------------------------
