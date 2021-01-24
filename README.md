@@ -22,7 +22,7 @@
 <br></br>
 #ارزیابی بخش عمومی
 [ارزیابی رزومه و انگیزه نامه ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_CV_CheckList_AR_3991.pdf)
-[خلاصه ارزیابی بخش عمومی ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_CV_CheckList_AR_3991.pdf)
+[خلاصه ارزیابی بخش عمومی ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_GeneralSection_CheckList_AR_3991%20(1).pdf)
 <br></br>
 
 ------------------------------------
