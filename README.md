@@ -26,6 +26,9 @@
 <br></br>
 -[خلاصه ارزیابی بخش عمومی ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_GeneralSection_CheckList_AR_3991%20(1).pdf)
 <br></br>
+#ارزیابی بخش ارشد
+<br></br>
+-[ارزیابی درس مدیریت پروژه های نرم افزاری ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_SoftwareProjectManagement_CheckList_AR_3991.pdf)
 
 ------------------------------------
 # PNU_3991
