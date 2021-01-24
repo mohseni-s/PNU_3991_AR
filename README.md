@@ -28,7 +28,7 @@
 <br></br>
 #ارزیابی بخش ارشد
 <br></br>
--[ارزیابی درس مدیریت پروژه های نرم افزاری ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_SoftwareProjectManagement_CheckList_AR_3991.pdf)
+-[ارزیابی درس مدیریت پروژه های نرم افزاری ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/Software%20Project%20Managment/SM_SoftwareProjectManagement_CheckList_AR_3991.pdf)
 
 ------------------------------------
 # PNU_3991
