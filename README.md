@@ -21,6 +21,7 @@
 [9) ارزیابی ها](https://github.com/mohseni-s/PNU_3991_AR/tree/main/%D8%A7%D8%B1%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C%20%D9%85%D8%AF%DB%8C%D8%B1%DB%8C%D8%AA%20%D9%BE%D8%B1%D9%88%DA%98%D9%87%20%D9%87%D8%A7%DB%8C%20%D9%86%D8%B1%D9%85%20%D8%A7%D9%81%D8%B2%D8%A7%D8%B1%DB%8C)
 <br></br>
 #ارزیابی بخش عمومی
+<br></br>
 -[ارزیابی رزومه و انگیزه نامه ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_CV_CheckList_AR_3991.pdf)
 <br></br>
 -[خلاصه ارزیابی بخش عمومی ](https://github.com/mohseni-s/PNU_3991_AR/blob/main/General/SM_GeneralSection_CheckList_AR_3991%20(1).pdf)
